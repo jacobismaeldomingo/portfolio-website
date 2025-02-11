@@ -1,0 +1,212 @@
+[
+  {
+    "skillName": "HTML",
+    "skillPicture": "html.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "CSS",
+    "skillPicture": "css.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "JavaScript",
+    "skillPicture": "javascript.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Java",
+    "skillPicture": "java.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Python",
+    "skillPicture": "python.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "C",
+    "skillPicture": "c.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "C#",
+    "skillPicture": "c-sharp.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "PHP",
+    "skillPicture": "php.svg",
+    "width": "55%"
+  },
+  {
+    "skillName": "XML",
+    "skillPicture": "xml.svg",
+    "width": "50%"
+  },
+  {
+    "skillName": "XSLT",
+    "skillPicture": "xslt.png",
+    "width": "50%"
+  },
+  {
+    "skillName": "MySQL",
+    "skillPicture": "mysql.svg",
+    "width": "50%"
+  },
+  {
+    "skillName": "Lua",
+    "skillPicture": "lua.png",
+    "width": "50%"
+  },
+  {
+    "skillName": "Bootstrap",
+    "skillPicture": "bootstrap.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "jQuery",
+    "skillPicture": "jquery.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "AJAX",
+    "skillPicture": "ajax.png",
+    "width": "65%"
+  },
+  {
+    "skillName": "Git",
+    "skillPicture": "git.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "GitHub",
+    "skillPicture": "github.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "GitLab",
+    "skillPicture": "gitlab.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Astro",
+    "skillPicture": "astro.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "React",
+    "skillPicture": "react.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Node.js",
+    "skillPicture": "node.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Spring Boot",
+    "skillPicture": "spring-boot.png",
+    "width": "55%"
+  },
+  {
+    "skillName": "Maven",
+    "skillPicture": "maven.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Unity",
+    "skillPicture": "unity.png",
+    "width": "50%"
+  },
+  {
+    "skillName": "ASP.NET",
+    "skillPicture": "aspnet.png",
+    "width": "55%"
+  },
+  {
+    "skillName": "VS Code",
+    "skillPicture": "vscode.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "PyCharm",
+    "skillPicture": "pycharm.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "IntelliJ",
+    "skillPicture": "intellij.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Adobe Photoshop",
+    "skillPicture": "photoshop.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Adobe Illustrator",
+    "skillPicture": "illustrator.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Adobe Premiere Pro",
+    "skillPicture": "premiere-pro.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Adobe After Effects",
+    "skillPicture": "after-effects.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Final Cut Pro",
+    "skillPicture": "final-cut-pro.png",
+    "width": "50%"
+  },
+  {
+    "skillName": "Microsoft Office",
+    "skillPicture": "office.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Microsoft SSMS",
+    "skillPicture": "ssms.png",
+    "width": "70%"
+  },
+  {
+    "skillName": "Microsoft Access",
+    "skillPicture": "access.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "Figma",
+    "skillPicture": "figma.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "NPM",
+    "skillPicture": "npm.svg",
+    "width": "50%"
+  },
+  {
+    "skillName": "Netlify",
+    "skillPicture": "netlify.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Canva",
+    "skillPicture": "canva.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Jira",
+    "skillPicture": "jira.svg",
+    "width": "45%"
+  },
+  {
+    "skillName": "Gatsby",
+    "skillPicture": "gatsby.png",
+    "width": "45%"
+  }
+]

@@ -1,0 +1,59 @@
+---
+import dark_logo from "../../public/logo/logo-black.png";
+import light_logo from "../../public/logo/logo-white.png";
+import { Image } from "astro:assets";
+
+// Set initial theme from localStorage
+let currentTheme = "dark";
+
+if (typeof window !== "undefined") {
+  currentTheme = localStorage.getItem("theme") || "light";
+}
+---
+
+<div class="h-[35px] w-[35px] aspect-square rounded-lg mt-2 relative">
+  <!-- Light logo -->
+  <Image
+    src={light_logo}
+    alt="Light Logo for Jacob Domingo Website"
+    id="light-logo"
+    class=dark:block hidden
+  />
+
+  <!-- Dark logo -->
+  <Image
+    src={dark_logo}
+    alt="Dark Logo for Jacob Domingo Website"
+    id="dark-logo"
+    class=dark:hidden
+  />
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lightLogoElement = document.getElementById("light-logo");
+    const darkLogoElement = document.getElementById("dark-logo");
+
+    // Function to toggle visibility of logos based on theme
+    const switchLogoVisibility = (theme: string | null) => {
+      if (theme === "dark") {
+        lightLogoElement?.classList.remove("hidden");
+        darkLogoElement?.classList.add("hidden");
+      } else {
+        lightLogoElement?.classList.add("hidden");
+        darkLogoElement?.classList.remove("hidden");
+      }
+    };
+
+    // Initialize logo visibility
+    const storedTheme = localStorage.getItem("theme");
+    switchLogoVisibility(storedTheme);
+
+    // Listen for the theme change event and cast to CustomEvent
+    window.addEventListener("themeChange", (event) => {
+      const customEvent = event as CustomEvent;
+      const newTheme = customEvent.detail.theme;
+      switchLogoVisibility(newTheme);
+    });
+  });
+</script>

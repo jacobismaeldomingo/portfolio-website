@@ -1,0 +1,50 @@
+---
+const { title } = Astro.props;
+import "../styles/globals.css";
+---
+
+<!doctype html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/logo/logo-white.png" />
+        <meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <meta name="description" content="Jacob Domingo is an aspiring full-stack software developer." />
+        <meta name="author" content="Jacob Domingo" />
+        <meta
+            name="keywords"
+            content="Jacob Ismael Domingo, Jacob Domingo, jacobismaeldomingo, jacobdomingo, Full-stack Developer, full-stack, web development, back-end development, front-end development"
+        />
+        <meta
+            property="og:title"
+            content="Jacob Domingo - Portfolio Website"
+        />
+        <meta property="og:url" content="https://jacobismaeldomingo.dev/" />
+        <!-- <meta property="og:image" content="/ogimage.png" /> -->
+        <meta
+            property="og:description"
+            content="Jacob Domingo is an aspiring full-stack software developer."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Jacob Domingo - Portfolio Website" />
+        <meta property="og:locale" content="en_US" />
+        <link rel="canonical" href="https://jacobismaeldomingo.dev/" />
+		<title>{title}</title>
+	</head>
+	<body class="bg-light-fondo-primary dark:bg-dark-fondo-primary">
+        <slot />
+        <script>
+            const darkThemeMq = window.matchMedia(
+                "(prefers-color-scheme: dark)"
+            );
+            if (darkThemeMq.matches) {
+                document.body.classList.add("dark");
+                document.documentElement.classList.add("dark");
+            } else {
+                document.body.classList.remove("dark");
+                document.documentElement.classList.remove("dark");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "what-is-happening",
+    "carouselImages": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png"
+    ],
+    "projectRepo": "https://github.com/jacobismaeldomingo/What-is-Happening",
+    "projectTitle": "What's Happening",
+    "projectSlogan": "Content Management System",
+    "projectDescription": "What's Happening is an online site that allows community members to upload their events and contact information so that users can view upcoming events and potentially contact event organizers to purchase tickets, contribute etc.",
+
+    "projectTechnologies": [
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      }
+    ]
+  },
+  {
+    "id": "dalbook",
+    "carouselImages": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
+    "projectRepo": "https://github.com/jacobismaeldomingo/DalBook",
+    "projectTitle": "DalBook",
+    "projectSlogan": "Social Media Application",
+    "projectDescription": "DalBook is a project for a social media platform specifically designed for Dalhousie University. The platform draws inspiration from existing social media applications and includes features tailored to the needs of students, faculty, and administrators at Dalhousie University.",
+
+    "projectTechnologies": [
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      },
+      {
+        "name": "Java",
+        "icon": "java.svg"
+      },
+      {
+        "name": "React",
+        "icon": "react.svg"
+      },
+      {
+        "name": "Spring Boot",
+        "icon": "spring-boot.png"
+      },
+      {
+        "name": "Maven",
+        "icon": "maven.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "node.svg"
+      }
+    ]
+  },
+  {
+    "id": "missile-command",
+    "carouselImages": ["1.png", "2.png", "3.png"],
+    "projectRepo": "https://github.com/jacobismaeldomingo/Missile-Command",
+    "projectTitle": "Missile Command",
+    "projectSlogan": "Python Turtle Graphics",
+    "projectDescription": "Missile Commmand is an Object-Oriented Programming Python game that uses Turtle Graphics to simulate the old popular Arcade game Missile Command. The player has 6 cities and 3 silos, the objective of the game is the player must protect these cities and silos from an endless hail of enemy missiles.",
+
+    "projectTechnologies": [
+      {
+        "name": "Python",
+        "icon": "python.svg"
+      },
+      {
+        "name": "PyCharm",
+        "icon": "pycharm.png"
+      }
+    ]
+  },
+  {
+    "id": "covid-news",
+    "carouselImages": ["1.png", "2.png", "3.png"],
+    "projectRepo": "https://github.com/jacobismaeldomingo/Covid-News-Website",
+    "projectTitle": "Covid News Website",
+    "projectSlogan": "Responsive Website",
+    "projectDescription": "Covid News website is a responsive website that was created using programming languages like HTML, CSS and JavaScript This website is a news article website that showcase the effects of COVID19 into different topics such as Education, society and evironment. Some of the key features in this website is the responsive element where the physical look of the website change depending on the device the user is using to access the website (Phone, Tablet, and Computer view) and also the Dark Mode feature where user can change how the look of the website by clicking a button.",
+
+    "projectTechnologies": [
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      }
+    ]
+  },
+  {
+    "id": "timetable",
+    "carouselImages": ["1.png", "2.png"],
+    "projectRepo": "https://github.com/jacobismaeldomingo/Timetable-Website",
+    "projectTitle": "Timetable Website",
+    "projectSlogan": "Responsive Website",
+    "projectDescription": "Timetable website is a responsive website that was created using programming languages like HTML, CSS and JavaScript. This website is a school timetable website where users can look up a timetable where it lists all the information about each courses such as course name, course time, course day, and location of the course. One of the key features in this website is the responsive element where the physical look of the website change depending on the device the user is using to access the website (Phone, Tablet, and Computer view).",
+
+    "projectTechnologies": [
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      }
+    ]
+  }
+]
