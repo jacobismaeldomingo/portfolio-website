@@ -14,7 +14,7 @@ const {
     jobTechnologies,
 } = Astro.props;
 
-function calculateDuration(jobTime) {
+function calculateDuration(jobTime: string) {
     const [start, end] = jobTime.split(" - ");
 
     if (end.toLowerCase() === "present") {
@@ -201,7 +201,7 @@ function calculateDuration(jobTime) {
                     Activities
                 </h2>
                 <ul class="ml-6 text-light-texto-secondary dark:text-dark-texto-secondary list-outside list-disc">
-                    {jobActivities.map((activity) => <li>{activity}</li>)}
+                    {jobActivities.map((activity: string) => <li>{activity}</li>)}
                 </ul>
             </div>
             <div class="flex flex-col gap-2 mb-1">
@@ -210,7 +210,7 @@ function calculateDuration(jobTime) {
                 </h2>
                 <ul class="flex flex-wrap gap-x-4 gap-y-2 mb-0 text-light-texto-secondary dark:text-dark-texto-secondary">
                     {
-                        jobTechnologies.map((technology) => (
+                        jobTechnologies.map((technology: { name: string; icon: string}) => (
                             <TechItem
                                 name={technology.name}
                                 icon={technology.icon}

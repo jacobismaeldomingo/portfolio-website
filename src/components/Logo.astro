@@ -3,11 +3,8 @@ import dark_logo from "../../public/logo/logo-black.png";
 import light_logo from "../../public/logo/logo-white.png";
 import { Image } from "astro:assets";
 
-// Set initial theme from localStorage
-let currentTheme = "dark";
-
 if (typeof window !== "undefined") {
-  currentTheme = localStorage.getItem("theme") || "light";
+  localStorage.getItem("theme") || "light";
 }
 ---
 
@@ -17,7 +14,8 @@ if (typeof window !== "undefined") {
     src={light_logo}
     alt="Light Logo for Jacob Domingo Website"
     id="light-logo"
-    class=dark:block hidden
+    class="dark:block"
+    hidden
   />
 
   <!-- Dark logo -->
@@ -25,7 +23,7 @@ if (typeof window !== "undefined") {
     src={dark_logo}
     alt="Dark Logo for Jacob Domingo Website"
     id="dark-logo"
-    class=dark:hidden
+    class="dark:hidden"
   />
 </div>
 

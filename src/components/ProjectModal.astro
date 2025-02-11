@@ -100,7 +100,7 @@ const {
                     class="flex flex-wrap gap-x-4 gap-y-2 mb-0 text-light-texto-secondary dark:text-dark-texto-secondary"
                 >
                     {
-                        projectTechnologies.map((technology) => (
+                        projectTechnologies.map((technology: { name: string; icon: string}) => (
                             <TechItem
                                 name={technology.name}
                                 icon={technology.icon}
@@ -135,9 +135,14 @@ const {
 <script>
     const $modals = document.querySelectorAll(".modal");
     $modals.forEach((modal) => {
-        const modalHeight = modal.clientHeight;
-        const modalCardHeight = modal.firstElementChild.clientHeight;
+        const modalElement = modal as HTMLElement; // Cast to HTMLElement
+        const modalHeight = modalElement.clientHeight;
 
-        if (modalCardHeight > modalHeight) modal.style.overflow = "scroll";
+        const modalCard = modalElement.firstElementChild as HTMLElement | null; // Ensure it's not null
+        if (!modalCard) return;
+
+        const modalCardHeight = modalCard.clientHeight;
+
+        if (modalCardHeight > modalHeight) modalElement.style.overflow = "scroll";
     });
 </script>
