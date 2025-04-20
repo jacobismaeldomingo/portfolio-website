@@ -1,14 +1,16 @@
 [
-    {
-        "id": "communication-tech-and-cybersecurity",
-        "certificatePicture": "",
-        "certificateTitle": "Certificate in Communication Technologies and Cyber Security",
-        "certificateTime": "May 2025"
-    },
-    {
-        "id": "web-and-mobile-development",
-        "certificatePicture": "",
-        "certificateTitle": "Certificate in Web and Mobile Development",
-        "certificateTime": "May 2025"
-    }
+  {
+    "id": "communication-tech-and-cybersecurity",
+    "certificatePicture": "",
+    "certificateTitle": "Certificate in Communication Technologies and Cyber Security",
+    "certificateTime": "May 2025",
+    "certificateLink": "https://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&catalogid=135&chapterid=9317&topicgroupid=40974&loaduseredits=False"
+  },
+  {
+    "id": "web-and-mobile-development",
+    "certificatePicture": "",
+    "certificateTitle": "Certificate in Web and Mobile Development",
+    "certificateTime": "May 2025",
+    "certificateLink": "https://academiccalendar.dal.ca/Catalog/ViewCatalog.aspx?pageid=viewcatalog&catalogid=135&chapterid=9317&topicgroupid=40978&loaduseredits=False"
+  }
 ]

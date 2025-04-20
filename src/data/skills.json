@@ -100,6 +100,11 @@
     "width": "45%"
   },
   {
+    "skillName": "React Native",
+    "skillPicture": "react-native.svg",
+    "width": "70%"
+  },
+  {
     "skillName": "Node.js",
     "skillPicture": "node.svg",
     "width": "45%"
@@ -195,6 +200,11 @@
     "width": "45%"
   },
   {
+    "skillName": "Vercel",
+    "skillPicture": "vercel.svg",
+    "width": "50%"
+  },
+  {
     "skillName": "Canva",
     "skillPicture": "canva.svg",
     "width": "45%"
@@ -208,5 +218,20 @@
     "skillName": "Gatsby",
     "skillPicture": "gatsby.png",
     "width": "45%"
+  },
+  {
+    "skillName": "Firebase",
+    "skillPicture": "firebase.png",
+    "width": "45%"
+  },
+  {
+    "skillName": "PostgreSQL",
+    "skillPicture": "postgresql.svg",
+    "width": "50%"
+  },
+  {
+    "skillName": "Docker",
+    "skillPicture": "docker.png",
+    "width": "50%"
   }
 ]
