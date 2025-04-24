@@ -1,5 +1,50 @@
 [
   {
+    "id": "critique",
+    "carouselImages": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png",
+      "8.png",
+      "9.png"
+    ],
+    "projectRepo": "https://github.com/jacobismaeldomingo/Critique",
+    "projectTitle": "Critique",
+    "projectSlogan": "Film Tracker Diary App",
+    "projectDescription": "Film Tracker Diary app is a mobile application that allows users to record, track, rate and review movies and TV shows they watch across different platforms. The purpose of this app is to provide a personal central application for movie/tv enthusiasts who wants to track their viewing history and people who loves rating films.",
+
+    "projectTechnologies": [
+      {
+        "name": "Expo",
+        "icon": "expo.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "React Native",
+        "icon": "react-native.svg"
+      },
+      {
+        "name": "React",
+        "icon": "react.svg"
+      },
+      {
+        "name": "Firebase",
+        "icon": "firebase.png"
+      },
+      {
+        "name": "Cloudinary",
+        "icon": "cloudinary.png"
+      }
+    ]
+  },
+  {
     "id": "what-is-happening",
     "carouselImages": [
       "1.png",

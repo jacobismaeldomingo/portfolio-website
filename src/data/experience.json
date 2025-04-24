@@ -1,155 +1,155 @@
 [
-    {
-        "id": "eso",
-        "jobPicture": "eso.webp",
-        "jobColor": "#006fff",
-        "jobTitle": "Software Development Engineer",
-        "jobTime": "September 2023 - December 2023",
-        "jobCompany": "ESO",
-        "jobCompanySite": "https://www.eso.com/",
-        "jobDescription": "I developed software solutions, ensured data integrity, and participated in Agile design sessions. He worked with XML, XSLT, Xspec, and SQL to resolve cloud service issues.",
-        "jobActivities": [
-            "Developed analytical and software solutions tailored to meet product and customer requirements.",
-            "Ensured product and customer compliance by overseeing the seamless integration of data across systems, maintaining integrity.",
-            "Engaged in Agile design sessions and code reviews, following methodologies like Scrum for efficient development.",
-            "Developed, debugged, and implemented code in XML, XSLT, Xspec, and SQL to address challenges presented on the company's cloud service ticket system."
-        ],
-        "jobTechnologies": [
-            {
-                "name": "XML",
-                "icon": "xml.svg"
-            },
-            {
-                "name": "XSLT",
-                "icon": "xslt.png"
-            },
-            {
-                "name": "JavaScript",
-                "icon": "javascript.svg"
-            },
-            {
-                "name": "HTML",
-                "icon": "html.svg"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.svg"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql.svg"
-            },
-            {
-                "name": "Git",
-                "icon": "git.svg"
-            }
-        ]
-    },
-    {
-        "id": "fossil-power-systems",
-        "jobPicture": "fossil-power-systems.webp",
-        "jobColor": "#27235e",
-        "jobTitle": "Software Development Co-op Student",
-        "jobTime": "January 2023 - April 2023",
-        "jobCompany": "Babcock & Wilcox FPS Inc.",
-        "jobCompanySite": "https://www.babcock.com/home/thermal/combustion-and-fuel-systems/fps-combustion-equipment/",
-        "jobDescription": "I developed and debugged a web application using C#, HTML, JavaScript, and ASP.NET, ensuring proper data storage in SQL databases and executing data migration between systems.",
-        "jobActivities": [
-            "Examined embedded system programming techniques.",
-            "Designed and developed a C#, HTML, JavaScript, and ASP.NET Core Framework front-end database web application.",
-            "Debugged the web application, ensuring accurate programming outputs and verifying proper data storage in the SQL database.",
-            "Implemented data migration and transformation scripts between different database software using tools like Microsoft Access, Microsoft SSMS, and SSMA for Access."
-        ],
-        "jobTechnologies": [
-            {
-                "name": "C",
-                "icon": "c.png"
-            },
-            {
-                "name": "ASP.NET",
-                "icon": "aspnet.png"
-            },
-            {
-                "name": "JavaScript",
-                "icon": "javascript.svg"
-            },
-            {
-                "name": "HTML",
-                "icon": "html.svg"
-            },
-            {
-                "name": "CSS",
-                "icon": "css.svg"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql.svg"
-            },
-            {
-                "name": "Bootstrap",
-                "icon": "bootstrap.svg"
-            },
-            {
-                "name": "jQuery",
-                "icon": "jquery.svg"
-            },
-            {
-                "name": "AJAX",
-                "icon": "ajax.png"
-            },
-            {
-                "name": "Git",
-                "icon": "git.svg"
-            },
-            {
-                "name": "Microsoft SSMS",
-                "icon": "ssms.png"
-            },
-            {
-                "name": "Microsoft Access",
-                "icon": "access.png"
-            }
-        ]
-    },
-    {
-        "id": "code-ninjas",
-        "jobPicture": "code-ninjas.png",
-        "jobColor": "#0086eb",
-        "jobTitle": "Code Sensei and Code Instructor",
-        "jobTime": "January 2022 - December 2022",
-        "jobCompany": "Code Ninjas",
-        "jobCompanySite": "https://www.codeninjas.com/halifax-ns-ca",
-        "jobDescription": "I taught coding to children, leading camps and using languages like JavaScript, Lua, and C#. He fostered problem-solving skills and maintained strong communication with both kids and staff.",
-        "jobActivities": [
-            "Assisted children in coding games, debugging, and utilizing programming languages like JavaScript, Lua, C#, Unity, Scratch and CAD.",
-            "Led day and week-long coding camps for children aged five to fourteen, fostering their technical, problem-solving, and critical-thinking skills.",
-            "Demonstrated strong interpersonal and communication skills to address concerns with kids or team members in a friendly and professional manner."
-        ],
-        "jobTechnologies": [
-            {
-                "name": "JavaScript",
-                "icon": "javascript.svg"
-            },
-            {
-                "name": "Lua",
-                "icon": "lua.png"
-            },
-            {
-                "name": "C#",
-                "icon": "c-sharp.png"
-            },
-            {
-                "name": "Unity",
-                "icon": "unity.png"
-            },
-            {
-                "name": "Scratch",
-                "icon": "scratch.png"
-            },
-            {
-                "name": "AutoCAD",
-                "icon": "autocad.png"
-            }
-        ]
-    }
+  {
+    "id": "eso",
+    "jobPicture": "eso.webp",
+    "jobColor": "#006fff",
+    "jobTitle": "Software Development Engineer",
+    "jobTime": "September 2023 - December 2023",
+    "jobCompany": "ESO",
+    "jobCompanySite": "https://www.eso.com/",
+    "jobDescription": "I developed software solutions, ensured data integrity, and participated in Agile design sessions. He worked with XML, XSLT, Xspec, and SQL to resolve cloud service issues.",
+    "jobActivities": [
+      "Developed analytical and software solutions tailored to meet product and customer requirements.",
+      "Ensured product and customer compliance by overseeing the seamless integration of data across systems, maintaining integrity.",
+      "Engaged in Agile design sessions and code reviews, following methodologies like Scrum for efficient development.",
+      "Developed, debugged, and implemented code in XML, XSLT, Xspec, and SQL to address challenges presented on the company's cloud service ticket system."
+    ],
+    "jobTechnologies": [
+      {
+        "name": "XML",
+        "icon": "xml.svg"
+      },
+      {
+        "name": "XSLT",
+        "icon": "xslt.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      }
+    ]
+  },
+  {
+    "id": "fossil-power-systems",
+    "jobPicture": "fossil-power-systems.webp",
+    "jobColor": "#27235e",
+    "jobTitle": "Software Development Co-op Student",
+    "jobTime": "January 2023 - April 2023",
+    "jobCompany": "Babcock & Wilcox FPS Inc.",
+    "jobCompanySite": "https://www.babcock.com/home/thermal/combustion-and-fuel-systems/fps-combustion-equipment/",
+    "jobDescription": "I developed and debugged a web application using C#, HTML, JavaScript, and ASP.NET, ensuring proper data storage in SQL databases and executing data migration between systems.",
+    "jobActivities": [
+      "Examined embedded system programming techniques.",
+      "Designed and developed a C#, HTML, JavaScript, and ASP.NET Core Framework front-end database web application.",
+      "Debugged the web application, ensuring accurate programming outputs and verifying proper data storage in the SQL database.",
+      "Implemented data migration and transformation scripts between different database software using tools like Microsoft Access, Microsoft SSMS, and SSMA for Access."
+    ],
+    "jobTechnologies": [
+      {
+        "name": "C",
+        "icon": "c.png"
+      },
+      {
+        "name": "ASP.NET",
+        "icon": "aspnet.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "bootstrap.svg"
+      },
+      {
+        "name": "jQuery",
+        "icon": "jquery.svg"
+      },
+      {
+        "name": "AJAX",
+        "icon": "ajax.png"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
+        "name": "Microsoft SSMS",
+        "icon": "ssms.png"
+      },
+      {
+        "name": "Microsoft Access",
+        "icon": "access.png"
+      }
+    ]
+  },
+  {
+    "id": "code-ninjas",
+    "jobPicture": "code-ninjas.png",
+    "jobColor": "#0086eb",
+    "jobTitle": "Code Sensei and Code Instructor",
+    "jobTime": "January 2022 - December 2022",
+    "jobCompany": "Code Ninjas",
+    "jobCompanySite": "https://www.codeninjas.com/halifax-ns-ca",
+    "jobDescription": "I taught coding to children, leading camps and using languages like JavaScript, Lua, and C#. He fostered problem-solving skills and maintained strong communication with both kids and staff.",
+    "jobActivities": [
+      "Assisted children in coding games, debugging, and utilizing programming languages like JavaScript, Lua, C#, Unity, Scratch and CAD.",
+      "Led day and week-long coding camps for children aged five to fourteen, fostering their technical, problem-solving, and critical-thinking skills.",
+      "Demonstrated strong interpersonal and communication skills to address concerns with kids or team members in a friendly and professional manner."
+    ],
+    "jobTechnologies": [
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Lua",
+        "icon": "lua.png"
+      },
+      {
+        "name": "C#",
+        "icon": "c-sharp.png"
+      },
+      {
+        "name": "Unity",
+        "icon": "unity.png"
+      },
+      {
+        "name": "Scratch",
+        "icon": "scratch.png"
+      },
+      {
+        "name": "AutoCAD",
+        "icon": "autocad.png"
+      }
+    ]
+  }
 ]
